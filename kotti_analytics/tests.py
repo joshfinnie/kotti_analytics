@@ -1,7 +1,7 @@
 from pyramid.threadlocal import get_current_registry
 from kotti.tests import UnitTestBase
 
-from kms_analytics import render_analytics_widget
+from kotti_analytics import render_analytics_widget
 
 
 def settings():
